@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <!-- body wrapper -->
+    <div class="wrapper-container">
+
+      <!-- password strength  -->
+      <div class="heading">
+        <h2 class = "password-strength" id="password-strength">Password Strength</h2>
+      </div>
+
+      <!-- cards -->
+      <div class="card-container">
+        <div class="card-component">
+          <h1>Uppercase letters</h1>
+        </div>
+        <div class="check-box">
+          <input type="checkbox" id="label1" name="label1" value="Uppercase" onclick="updatePasswordStrength()"/>
+          <label for="label1"></label><br />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-component">
+          <h1>Numbers</h1>
+        </div>
+        <div class="check-box">
+          <input type="checkbox" id="label2" name="label2" value="Number" onclick="updatePasswordStrength()"/>
+          <label for="label2"></label><br />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-component">
+          <h1>Special Characters</h1>
+        </div>
+        <div class="check-box">
+          <input type="checkbox" id="label3" name="label3" value="Special" onclick="updatePasswordStrength()"/>
+          <label for="label3"></label><br />
+        </div>
+      </div>
+
+      <!-- button -->
+      <div class="button-container">
+            <button class="button" onclick="generatePassword()">Generate Password</button>
+      </div>
+
+      <!-- password container -->
+      <div class= "password-container-wrapper">
+        <div class="password-container">
+            <p id= "generated-password"> Password</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
