@@ -74,6 +74,8 @@ a {
         transition: 0.3s all ease-in;
         color: black;
         cursor: pointer;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
     }
 
     .btn.git {
@@ -176,6 +178,10 @@ a {
 }
 
 @media screen and (min-width : 1070px) {
+
+    .wrapper {
+        justify-content: flex-start;
+    }
 
     .mobile-project {
         min-width: 22%;
