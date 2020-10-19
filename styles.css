@@ -73,6 +73,7 @@ a {
         background-color: transparent;
         transition: 0.3s all ease-in;
         color: black;
+        cursor: pointer;
     }
 
     .btn.git {
