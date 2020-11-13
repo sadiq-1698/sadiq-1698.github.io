@@ -61,6 +61,10 @@ a {
         margin-bottom: 1rem;
     }
 
+    .web-project.tutorial{
+        background-color: lightpink;
+    }
+
     .btn-container {
         margin-bottom: 1rem;
     }
